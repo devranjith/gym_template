@@ -58,10 +58,10 @@ export function Hero() {
             ))}
           </div>
 
-          <p className="mt-8 text-xs text-muted">
-            Tip: add a dark gym photo at <span className="text-text">`public/hero.jpg`</span>
-            for the full premium vibe.
-          </p>
+          {/*<p className="mt-8 text-xs text-muted">*/}
+          {/*  Tip: add a dark gym photo at <span className="text-text">`public/hero.jpg`</span>*/}
+          {/*  for the full premium vibe.*/}
+          {/*</p>*/}
         </div>
       </SectionWrapper>
     </section>

@@ -67,11 +67,11 @@ export function Trainers() {
                 </a>
               </div>
 
-              <p className="mt-4 text-xs text-muted">
-                Tip: add images in <span className="text-text">`public/trainer-1.jpg`</span>,{' '}
-                <span className="text-text">`trainer-2.jpg`</span>,{' '}
-                <span className="text-text">`trainer-3.jpg`</span>.
-              </p>
+              {/*<p className="mt-4 text-xs text-muted">*/}
+              {/*  Tip: add images in <span className="text-text">`public/trainer-1.jpg`</span>,{' '}*/}
+              {/*  <span className="text-text">`trainer-2.jpg`</span>,{' '}*/}
+              {/*  <span className="text-text">`trainer-3.jpg`</span>.*/}
+              {/*</p>*/}
             </div>
           </Card>
         ))}

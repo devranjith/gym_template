@@ -89,7 +89,7 @@ export function Contact() {
                 Send Message
               </Button>
               <p className="mt-3 text-xs text-muted">
-                This is a UI-only form for now (hook it to email/API later).
+                {/*This is a UI-only form for now (hook it to email/API later).*/}
               </p>
             </div>
           </form>

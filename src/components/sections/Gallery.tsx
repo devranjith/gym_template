@@ -45,10 +45,10 @@ export function Gallery() {
         ))}
       </div>
 
-      <p className="mt-6 text-xs text-muted">
-        Add files: <span className="text-text">`public/gallery-1.jpg`</span> ...{' '}
-        <span className="text-text">`gallery-6.jpg`</span>
-      </p>
+      {/*<p className="mt-6 text-xs text-muted">*/}
+      {/*  Add files: <span className="text-text">`public/gallery-1.jpg`</span> ...{' '}*/}
+      {/*  <span className="text-text">`gallery-6.jpg`</span>*/}
+      {/*</p>*/}
     </SectionWrapper>
   )
 }
