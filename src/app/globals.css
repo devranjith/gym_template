@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: #0b0b0b;
+    color: #ffffff;
+    font-family: var(--font-inter), Inter, ui-sans-serif, system-ui;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .mask-fade-bottom {
+    mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+  }
+
+  .bg-noise {
+    background-image: radial-gradient(
+        rgba(255, 255, 255, 0.04) 1px,
+        transparent 1px
+      ),
+      radial-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+    background-position:
+      0 0,
+      25px 25px;
+    background-size:
+      50px 50px,
+      50px 50px;
+  }
+}
